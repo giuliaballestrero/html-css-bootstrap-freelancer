@@ -23,14 +23,8 @@ footer {
 
 .my_interests {
     min-height: 200px;
-    background-color: lightsalmon;
 }
 
-h1, 
-h2, 
-h3 {
-    text-transform: uppercase;
-}
 
 .big-menu {
     display: none;
