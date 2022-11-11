@@ -9,6 +9,10 @@ footer {
     border: 1px solid rgb(93, 78, 231);
 }*/
 
+#avatar {
+    height: 250px;
+}
+
 .green {
     background-color: #1abc9c;
     color: #fff;
@@ -44,11 +48,14 @@ footer {
     color: #fff;
 }
 
+footer i {
+    aspect-ratio: 1 / 1;
+}
 .fa-brands {
     padding: 1rem;
     border: 1px solid #fff;
     border-radius: 50%;
-    aspect-ratio: 1;
+    aspect-ratio: 1 / 1;
 }
 
 .line {
