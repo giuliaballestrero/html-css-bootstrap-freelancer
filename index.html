@@ -163,40 +163,41 @@
 
         <section class="mb-2"> <!--Contact Me-->
             <div class="container">
-                <div class="row py-4">
+                <div class="row">
                     <div class="col-12">
-                        <div class="box  text-center">
-                            <h2>Contact Me</h2>
+                        <div class="box  text-center py-3">
+                            <h2 class="text-uppercase fw-bold">Contact Me</h2>
+                            <div class="p-1">
+                                <i class="fa-solid fa-star fs-3 pt-3"></i>
+                            </div> 
                         </div>
                     </div>
                     <div class="offset-1 col-10 offset-1">
-                        <div class="box pb-3">
-                            Name
-                            <hr>
-                        </div>
-                    </div>
-                    <div class="offset-1 col-10 offset-1">
-                        <div class="box pb-3">
-                            Name
-                            <hr>
-                        </div>
-                    </div>
-                    <div class="offset-1 col-10 offset-1">
-                        <div class="box pb-3">
-                            Name
-                            <hr>
-                        </div>
-                    </div>
-                    <div class="offset-1 col-10 offset-1">
-                        <div class="box pb-5">
-                            Name
-                            <hr>
-                        </div>
-                    </div>
-                    <div class="offset-1 col-10 offset-1">
-                        <div class="box pb-3">
-                            <a href="#" class="btn btn-success">Send</a>
-                        </div>
+                        <form class="p-3">
+                            <div class="mb-3">
+                                <label for="exampleInputName" class="form-label">Name</label>
+                                <input type="name" class="form-control" id="exampleName">
+                                <div class="form-text"></div>
+                                <hr>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email Address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text"></div>
+                                <hr>
+                            <div class="mb-3">
+                                <label for="exampleInputPhoneNumber" class="form-label">Phone Number</label>
+                                <input type="name" class="form-control" id="examplePhoneNumber">
+                                <div class="form-text"></div>
+                                <hr>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                                <hr>
+                            </div>
+                            <button type="submit" class="btn btn-success">Send</button>
+                        </form>    
                     </div>
                 </div>
             </div>
