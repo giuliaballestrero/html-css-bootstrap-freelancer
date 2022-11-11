@@ -41,18 +41,3 @@ footer {
     border: 1px solid #fff;
     border-radius: 50%;
 }
-
-
-.big-menu {
-    display: none;
-}
-
-@media screen and (min-width: 768px) {
-.small-menu {
-        display: none;
-}
-.big-menu {
-         display: block;
-}
-
-  }
