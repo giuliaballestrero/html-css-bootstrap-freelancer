@@ -48,15 +48,14 @@ footer {
     color: #fff;
 }
 
-footer i {
-    aspect-ratio: 1 / 1;
-}
-.fa-brands {
-    padding: 1rem;
+.my-circle {
     border: 1px solid #fff;
     border-radius: 50%;
-    aspect-ratio: 1 / 1;
+    width: 50px;
+    aspect-ratio: 1;
+    margin: 0 .3rem;
 }
+
 
 .line {
     height: 3px;
