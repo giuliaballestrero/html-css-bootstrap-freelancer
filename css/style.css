@@ -21,6 +21,11 @@ footer {
     background-color: #3a546d;
 }
 
+.aqua {
+    color: #1abb9c;
+    text-decoration: none;
+}
+
 .my_interests {
     min-height: 200px;
 }
@@ -30,6 +35,14 @@ footer {
     border-radius: 15px 15px;
     color: #fff;
 }
+
+.fa-brands {
+    padding: 1rem;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+
 .big-menu {
     display: none;
 }
