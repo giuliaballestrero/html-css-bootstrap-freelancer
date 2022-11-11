@@ -25,7 +25,11 @@ footer {
     min-height: 200px;
 }
 
-
+.my_btn {
+    border: 1px solid white;
+    border-radius: 15px 15px;
+    color: #fff;
+}
 .big-menu {
     display: none;
 }
